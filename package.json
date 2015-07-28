@@ -1,0 +1,34 @@
+{
+  "name": "rome-min",
+  "version": "0.1.0",
+  "description": "min html and js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "chrislearn young",
+  "license": "MIT",
+  "bin": {
+    "rome-min": "cli.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^5.8.9",
+    "babel-eslint": "^4.0.5",
+    "base64-stream": "^0.1.2",
+    "bluebird": "^2.9.34",
+    "cheerio": "latest",
+    "findup-sync": "~0.1.2",
+    "fstream": "~0.1.22",
+    "glob": "~3.2.1",
+    "html-minifier": "latest",
+    "iconv-lite": "~0.2.10",
+    "js-yaml": "~2.1.0",
+    "lodash": "~1.3.1",
+    "mime": "^1.3.4",
+    "minimatch": "~0.2.12",
+    "node-file": "~0.1.1",
+    "postcss": "latest",
+    "request": "^2.60.0",
+    "rimraf": "~2.1.4"
+  }
+}
